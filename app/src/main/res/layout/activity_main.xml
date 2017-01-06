@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.yunus.firstarduino.MainActivity"
+    android:baselineAligned="false">
+
+    <!--Bölme1-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/bolme_1"
+        android:id="@+id/textView"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/saat"
+        android:id="@+id/textView2"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/bolme1saat"
+        android:layout_gravity="center_horizontal"
+        android:onClick="selectTimeToDisplay"
+        android:layout_above="@+id/textView4"
+        android:layout_alignStart="@+id/bolme2saat"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/tekrar"
+        android:id="@+id/textView3"
+        android:textStyle="bold"
+        android:layout_above="@+id/textView4"
+        android:layout_toStartOf="@+id/button3" />
+
+
+    <!--Bölme2-->
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:text="@string/bolme_2"
+          android:id="@+id/textView4"
+          android:layout_marginTop="32dp"
+          android:layout_below="@+id/textView2"
+          android:layout_alignParentStart="true"
+          android:textStyle="bold" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceSmall"
+          android:text="@string/saat"
+          android:id="@+id/textView5"
+          android:layout_marginTop="29dp"
+          android:layout_below="@+id/textView4"
+          android:layout_alignParentStart="true"
+          android:textStyle="bold" />
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/bolme2saat"
+        android:onClick="selectTimeToDisplay"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignStart="@+id/bolme3saat"
+
+        android:layout_alignEnd="@+id/bolme3saat" />
+
+    <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceSmall"
+          android:text="@string/tekrar"
+          android:id="@+id/textView6"
+        android:textStyle="bold"
+        android:layout_above="@+id/textView7"
+        android:layout_alignStart="@+id/textView3" />
+
+    <!--Bölme3-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/bolme_3"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/bolme2saat"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/saat"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/bolme3saat"
+        android:onClick="selectTimeToDisplay"
+        android:layout_above="@+id/textView10"
+        android:layout_toEndOf="@+id/textView8"
+      />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/tekrar"
+        android:id="@+id/textView9"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignStart="@+id/textView6" />
+    <!--Bölme4-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/bolme_4"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/saat"
+        android:id="@+id/textView11"
+        android:layout_alignBottom="@+id/bolme4saat"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/bolme4saat"
+        android:layout_below="@+id/textView10"
+        android:layout_alignStart="@+id/bolme3saat"
+        android:onClick="selectTimeToDisplay"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/tekrar"
+        android:id="@+id/textView12"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/bolme4saat"
+        android:layout_toStartOf="@+id/button3" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_above="@+id/textView4"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_toRightOf="@id/textView3"
+        android:drawSelectorOnTop="true"
+        android:layout_alignBaseline="@id/textView3"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:layout_above="@+id/textView7"
+        android:layout_toEndOf="@+id/textView6"
+        android:layout_marginTop="80dp"
+        android:layout_toRightOf="@id/textView9"
+        android:drawSelectorOnTop="true"
+        android:layout_alignBaseline="@id/textView6"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner3"
+        android:layout_above="@+id/textView10"
+        android:layout_toEndOf="@+id/textView9"
+        android:layout_toRightOf="@id/textView9"
+        android:drawSelectorOnTop="true"
+        android:layout_alignBaseline="@id/textView9"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner4"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_toEndOf="@+id/textView12"
+        android:layout_alignBaseline="@id/textView12"
+        android:layout_toRightOf="@id/textView12"
+        android:drawSelectorOnTop="true"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:checked="false"
+        android:layout_alignBottom="@+id/spinner"
+        android:layout_alignEnd="@+id/textView14" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch2"
+        android:checked="false"
+        android:layout_alignBottom="@+id/spinner2"
+        android:layout_alignStart="@+id/switch1" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch3"
+        android:checked="false"
+        android:layout_alignBottom="@+id/spinner3"
+        android:layout_alignStart="@+id/switch2" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch4"
+        android:checked="false"
+        android:layout_alignBottom="@+id/spinner4"
+        android:layout_alignStart="@+id/switch3" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="BÖLME 1"
+        android:id="@+id/button"
+        android:background="@color/pasifdurum"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="BÖLME2"
+        android:id="@+id/button2"
+        android:background="@color/pasifdurum"
+        android:layout_alignBottom="@+id/button"
+        android:layout_toEndOf="@+id/button" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="BÖLME 3"
+        android:id="@+id/button3"
+        android:background="@color/pasifdurum"
+        android:layout_alignTop="@+id/button2"
+        android:layout_toEndOf="@+id/button2" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="BÖLME 4"
+        android:id="@+id/button4"
+        android:background="@color/pasifdurum"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/button3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pasif/Aktif"
+        android:id="@+id/textView14"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

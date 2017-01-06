@@ -1,0 +1,4 @@
+CHANGED,C:\Users\Yunus\Desktop\PC\MyAndroidApps\FirstArduino\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\yunus\firstarduino\R$drawable$override.class
+CHANGED,C:\Users\Yunus\Desktop\PC\MyAndroidApps\FirstArduino\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\Yunus\Desktop\PC\MyAndroidApps\FirstArduino\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\yunus\firstarduino\AlarmReceiver$1$override.class
+CHANGED,C:\Users\Yunus\Desktop\PC\MyAndroidApps\FirstArduino\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\yunus\firstarduino\AlarmReceiver$override.class

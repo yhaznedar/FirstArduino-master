@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFAE00</color>
+    <color name="colorPrimaryDark">#FFAE00</color>
+    <color name="colorAccent">#80CBC4</color>
+    <color name="pasifdurum">#EB5757</color>
+    <color name="aktifdurum">#6FCF97</color>
+    <color name="intro2renk">#99e265</color>
+    <color name="intro3renk">#2eb2ff</color>
+    <color name="intro4renk">#CDDC39</color>
+</resources>

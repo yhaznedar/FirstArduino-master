@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">İlaç Takip</string>
+    <string name="bolme_1">Bölme 1 kısmını ayarla:</string>
+    <string name="bolme_2">Bölme 2 kısmını ayarla:</string>
+    <string name="bolme_3">Bölme 3 kısmını ayarla:</string>
+    <string name="bolme_4">Bölme 4 kısmını ayarla:</string>
+    <string name="saat">Saat:</string>
+    <string name="tekrar">Tekrar:</string>
+    <string name="skip">Atla</string>
+
+    <string-array name="tekrar">
+        <item>Zamanı seçin:</item>
+        <item>12 saatte bir</item>
+        <item>24 saatte bir</item>
+    </string-array>
+</resources>
